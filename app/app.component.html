@@ -3,7 +3,8 @@
     <div>
       <input [(ngModel)]="newTask">
         <button (click)="(add)">Dodaj</button>
-
+    </div>
+  </div>
         <div class="container">
           <div>
             <ng-container *ngIf="taskList.lenght > 0; else noTask">
